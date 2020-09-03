@@ -1,11 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Lav Bhatta</h1>
+       <nav>
+         <a class ="home" href="#home">Home</a>
+         <a class ="about" href="#about">About</a>
+         <a class ="contact" href="#contact">Contact</a>
+         <a class ="projects" href="#projects">Projects</a>
+       </nav> 
+      </header>
+      
+      <Section id="home">
+        <h2>Introducing My Site</h2>
+        <p>Welcome to my site. Please feel free to explore around. I highly recommend checking out my projects. If you'd like to get in touch with me, you can find my contact info at the bottom of the website.</p>
+      </Section>
+       <img src="https://blog.planview.com/wp-content/uploads/2020/01/Top-6-Software-Development-Methodologies.jpg" alt="software image"> 
+      
+      <Section id="about">
+        <h2>About Lav Bhatta</h2>
+        <p>Hi, my name is Lav, and I am a fullstack software engeering student at Lambda school. This website is my third project for the web development class.</p>
+      </Section>
+      
+      <Section id=projects>
+      <h2>Projects</h2>
+        <div>
+        <img src="https://picsum.photos/id/237/200/300" alt="black lab">
+       </div>
+        <div>
+        <img src="https://picsum.photos/seed/picsum/536/354" alt="Mountain">
+        </div>
+        <div>
+        <img src="https://picsum.photos/id/870/536/354?grayscale&blur=2" alt="light-house">
+      </Section>
+      </div>
+      
+      <footer id="contact">
+        <h2>Contact</h2>
+        <address>
+        lavbhatta@gmail.com</br>
+        2819665463</br>
+        www.linkedin.com/in/lavbhatta
+        </address>
+      </footer>
+
+      
+*{
+    box-sizing:border-box;
+    max-width: 100%;
+  }
+  
+  html{
+    font-size:62.5%
+  }
+  body{
+  font-size:1.8rem;
+    line-height:1.5;
+  }
+  
+  h1{
+    text-align:center;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+   }
+  nav a{
+    display: inline-block;
+    width:15%;
+    text-align:center;  
+    border-radius: 100px;
+    padding:1% 0;
+    background-color: Navy;
+    color: white;
+  }
+  a{
+  text-decoration:none;
+  }
+  
+  Section{
+    padding:4%;
+  }
+  #contact{
+    padding:4%
+  }
+  div{
+    display:inline-block;
+    flex-direction:row;
+  }
+  #home{
+    background-color: #DDB9A3;
+    color:#fff;
+    padding:
+      margin:20%;
+  }
+  #about{
+    background-color: #DDB9A3;
+    color:#fff;
+    padding:4;
+  
+  div img{
+    padding:4%;
+  }
 </body>
 </html>
